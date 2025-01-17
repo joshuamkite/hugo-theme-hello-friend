@@ -143,7 +143,7 @@ then please try to remove `theme = "hello-friend"` from your config file.
 ### Install theme locally
 
 ```bash
-git clone https://github.com/panr/hugo-theme-hello-friend.git themes/hello-friend
+git clone -b webpack https://github.com/panr/hugo-theme-hello-friend.git themes/hello-friend
 ```
 
 This will clone the repository directly to the `themes/hello-friend` directory.
@@ -151,7 +151,7 @@ This will clone the repository directly to the `themes/hello-friend` directory.
 ### Install theme as a submodule
 
 ```bash
-git submodule add -f https://github.com/panr/hugo-theme-hello-friend.git themes/hello-friend
+git submodule -b webpack add -f https://github.com/panr/hugo-theme-hello-friend.git themes/hello-friend
 ```
 
 This will install the repository as a sumbodule in the `themes/hello-friend` directory.
